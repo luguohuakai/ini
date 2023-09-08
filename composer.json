@@ -1,0 +1,20 @@
+{
+    "name": "luguohuakai/ini",
+    "description": "simple ini get and set",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luguohuakai\\Ini\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DM",
+            "email": "769245396@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
