@@ -38,11 +38,16 @@ $ini->get('a.b.c.d')
 
 ### 获取全部值
 
+* all
+
 ```php
 $all = $ini->all
 ```
 
 ## 设置值(即时写入文件)
+
+* set
+* setAll
 
 ```php
 // 设置一个值
