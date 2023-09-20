@@ -1,7 +1,7 @@
 <?php
 
 
-class Ini
+class ini
 {
     private string $file;
     public array $all = [];
