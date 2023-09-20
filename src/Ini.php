@@ -1,7 +1,8 @@
 <?php
 
+namespace luguohuakai\ini;
 
-class ini
+class Ini
 {
     private string $file;
     public array $all = [];
