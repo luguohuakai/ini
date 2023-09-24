@@ -53,6 +53,11 @@ class Ini
         return !(file_put_contents($this->file, $this->arr2ini($data)) === false);
     }
 
+    /**
+     * @param $data
+     * @return string
+     * @deprecated
+     */
     private function arrayToIni($data): string
     {
         if (empty($data)) return '';
